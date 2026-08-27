@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula03</title>
+</head>
+<body>
+    <h1>Categorias HTML</h1>
+
+    <h3>Elementos de bloco</h3>
+    <p>Ocupam toda a largura disponível da página, exemplo: &lt;div&gt;, &lt;p&gt;, &lt;h1&gt;, &lt;section&gt;, &lt;article&gt;.</p>
+
+    <h3>Elementos de linha</h3>
+    <p>Ocupam apenas o espaço necessário na linha. Exemplo: &lt;a&gt;, &lt;span&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;img&gt;.</p>
+
+    <p>Regra Importante: Elementos de linha não devem conter Elementos de bloco.</p>
+
+    <h4>Exemplo incorreto:</h4>
+    <span><div>Texto</div></span>
+
+    <h4>Exemplo Correto:</h4>
+    <div><span>Texto</span></div>
+
+    <h3>Categorias de conteúdo</h3>
+    <h4>Metadata Content</h4>
+    <p>São informações de configuração do arquivo HTML</p>
+    <p>&lt;title&gt;: Informar título da página na aba do navegador <br>
+    &lt;meta&gt;: Definir codificação da página<br>
+
+    &lt;link&gt; e &lt;style&gt;: Importar/Anexar CSS<br>
+    &lt;script&gt;: Importar/Anexar códigos em javascript</p>
+
+    <h4>Flow Content</h4>
+
+    <p>Representa a maior parte dos elementos usados no body</p>
+
+    <p>&lt;div&gt;: Criar uma divisão genérica, agrupar "pedaços" de código. <br>
+    &lt;p&gt;: Criar parágrafo dentro da página. <br>
+    &lt;section&gt;: Agrupar conteúdos que partilham do mesmo assunto/idéia.<br>
+    &lt;article&gt;: Conteúdo indenpendente e completo por si só(faz sentido sozinho).<br>
+    &lt;img&gt;: Importar imagem, desenho ou foto(não precisa de fechamento).<br>
+    </p>
+
+    <h4>Sectioning Content</h4>
+
+    <p>Organizar grandes áreas do documento</p>
+
+    <p>&lt;section&gt;: Agrupar conteúdos que partilham do mesmo assunto/idéia.<br>
+     &lt;article&gt;: Conteúdo indenpendente e completo por si só(faz sentido sozinho).<br>
+    &lt;aside&gt;: Serve para guardar um conteúdo secundário/lateral (links relacionados, anúncios, biografias e etc).<br>
+    &lt;nav&gt;: Agrupar links de navegação.</p>
+
+    <h4>Heading Content</h4>
+
+    <p>h1, h2, h3, h4, h5 e h6 -> Serve para adicionar títulos e subtítulos.</p>
+
+    <p>&lt;hgroup&gt;: Agrupar elementos de título.<br>
+    Exemplo:</p>
+    <hgroup>
+        <h5>Aprenda HTML</h5>
+        <h6>Senai Americana</h6>
+    </hgroup>
+
+    <h4>Phrasing Content</h4>
+
+    <p>Elementos que marcam textos ou partes do texto.</p>
+
+    <p>&lt;a&gt;: Criar um link para direcionar o usuário para outra página, utilizando o atributo href.<br>
+    Exemplo:
+    <a href="https://www.youtube.com/watch?v=UgkFI5ozHtI&list=RDsaalFn025fU&index=3" target="_blank">Pagode</a><br>
+    &lt;strong&gt;: Colocar uma parte do texto em <strong>negrito</strong>, <b>negrito também</b>.<br>
+    &lt;em&gt;: Colocar uma parte do texto em <em>itálico</em> ou <i>itálico também</i>.<br>
+    &lt;mark&gt;: Serve como marcador para o <mark style="background-color: tan;">texto</mark>.<br>
+    &lt;img&gt;: Importar imagem, desenho ou foto(não precisa de fechamento)
+    </p>
+
+    <h4>Embedded Content</h4>
+
+    <p>Inserir um conteúdo externo na página</p>
+
+    <p>&lt;video&gt;: Adicionar um vídeo(pode mostrar botões de play e pause)<br>
+    &lt;canvas&gt;: Criar uma tela em branco que poderá ser usada javascript. <br>
+    &lt;svg&gt;: Desenhar gráficos baseados em vetores.
+    &lt;iframe&gt;: Colocar um site inteiro dentro da sua página web(muito usado para vídeos e mapas). <br>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/bD6ifecX6rs?si=SnaddZjrvviruqA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+    &lt;img&gt;: Importar imagem, desenho ou foto(não precisa de fechamento)
+    </p>
+
+    <h4>Interactive Content</h4>
+
+    <p>&lt;button&gt;: Criar um botão.<br>
+    Exemplo: <button>Clique aqui</button>
+    &lt;input&gt;: Usado para receber dados do usuário. Dentre os dados aceitos estão: <br>
+    type="text": Campo de texto curto. <br>
+    type="password": Oculta os caracteres digitados <br>
+    type="email" ou "number": Valida dados específicos. <br>
+    type="checkbox" ou "radio": Caixas de marcação e escolha única.
+    </p>
+    
+    
+</body>
+</html>
